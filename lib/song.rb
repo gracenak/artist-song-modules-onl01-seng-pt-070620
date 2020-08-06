@@ -2,7 +2,7 @@ require_relative '../config/environment.rb'
 
 class Song
   extend Memorable::ClassMethods
-  include Memorable::Instance Methods
+  include Memorable::InstanceMethods
   include Paramable::InstanceMethods
   extend Findable::ClassMethods
   
