@@ -1,6 +1,7 @@
 require_relative '../config/environment.rb'
 
 class Artist
+  
   extend Memorable::ClassMethods
   include Memorable::Instance Methods
   include Paramable::InstanceMethods
@@ -16,6 +17,7 @@ class Artist
     super
     @songs = []
   end
+
 
   def self.all
     @@artists
