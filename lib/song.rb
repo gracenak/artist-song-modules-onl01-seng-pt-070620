@@ -2,6 +2,7 @@ require_relative '../config/environment.rb'
 
 class Song
   extend Memorable::ClassMethods
+  include Paramable::InstanceMethods
   
   attr_accessor :name
   attr_reader :artist
